@@ -8,5 +8,6 @@ public class StringTest {
         Joiner joiner = Joiner.on(";").skipNulls();
         String s = joiner.join("Harry", null, "Rob", "Herminate");
         System.out.println(s);
+        System.out.print("我只是为了试试，看好用不!");
     }
 }
