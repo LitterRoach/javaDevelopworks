@@ -12,6 +12,7 @@ public class ClassCastTest {
 
     static class Fruit {
     }
+
     static class Apple extends Fruit {
     }
 
@@ -19,7 +20,7 @@ public class ClassCastTest {
     public void test01() {
         Fruit fruit = new Fruit();
         Apple apple = new Apple();
-        apple = (Apple)fruit;
+        apple = (Apple) fruit;
         System.out.println("test01转换正常");
     }
 
@@ -27,7 +28,7 @@ public class ClassCastTest {
     public void test02() {
         Fruit fruit = new Apple();
         Apple apple = new Apple();
-        apple = (Apple)fruit;
+        apple = (Apple) fruit;
         System.out.println("test02转换正常");
     }
 
