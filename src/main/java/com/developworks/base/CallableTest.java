@@ -44,5 +44,4 @@ public class CallableTest {
         System.out.println("结果：" + integer);
         executor.shutdown();
     }
-
 }
