@@ -25,22 +25,17 @@ public class FilePathTest {
      */
     @Test
     public void test01() throws Exception {
-        File file1 = new File("./java.policy");
         File file2 = new File("D:\\JetBrains\\LitterRoach\\javaDevelopworks\\target\\classes\\java.policy");
-        System.out.println("-----默认相对路径：取得路径不同------");
-        System.out.println("getPath: " + file1.getPath ());
-        System.out.println("getAbsolutePath: " + file1.getAbsolutePath ());
         System.out.println("-----默认绝对路径:取得路径相同------");
         System.out.println("getPath: " + file2.getAbsolutePath ());
         System.out.println("getCanonicalPath: " + file2.getCanonicalPath());
     }
+
     /**
-     * -----默认相对路径：取得路径不同------
-     * getPath: .\java.policy
-     * getAbsolutePath: D:\JetBrains\LitterRoach\javaDevelopworks\.\java.policy
      * -----默认绝对路径:取得路径相同------
      * getPath: D:\JetBrains\LitterRoach\javaDevelopworks\target\classes\java.policy
      * getCanonicalPath: D:\JetBrains\LitterRoach\javaDevelopworks\target\classes\java.policy
+     *
      */
 
     @Test

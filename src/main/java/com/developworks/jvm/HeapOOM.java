@@ -3,12 +3,8 @@ package com.developworks.jvm;
 import com.google.common.collect.Lists;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
-import net.sf.cglib.proxy.MethodProxy;
 import org.junit.Test;
-import sun.misc.Unsafe;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.List;
 
 /**
